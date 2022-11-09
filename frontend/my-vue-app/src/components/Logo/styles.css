@@ -1,0 +1,10 @@
+.logo, img {
+    display: block;
+    width: 200px; 
+    margin: auto;
+}
+
+.logo h1 {
+    text-align: center;
+    color: #006dff;
+}

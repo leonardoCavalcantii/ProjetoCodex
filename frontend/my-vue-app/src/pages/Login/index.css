@@ -1,0 +1,21 @@
+.form-login {
+    width: 300px;
+    margin: auto;
+}
+
+.naocadastrado {
+    display:block;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-weight: 550;
+}
+  
+.naocadastrado a {
+    text-decoration: none;
+    color: black;
+}
+
+.naocadastrado a:hover {
+    color: blue;
+}

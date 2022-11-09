@@ -1,0 +1,10 @@
+button {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #006dff;
+    font-size: 1.4em;
+    background: white;
+    border: none;
+}
