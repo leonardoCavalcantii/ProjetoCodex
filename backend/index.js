@@ -20,12 +20,17 @@ const profileRoutes = require('./routes/profileRoutes')
 app.use('/profile', profileRoutes)
 
 
-
+/*
 const USER_BD = process.env.USER_BD
 const BD_PASSWORD = encodeURIComponent(process.env.BD_PASSWORD)
 
 
 mongoose.connect(`mongodb+srv://${USER_BD}:${BD_PASSWORD}@apicluster.1icwsn2.mongodb.net/?retryWrites=true&w=majority`)
+*/
+
+
+mongoose.connect(`mongodb+srv://willian_sl:sigmaswju@apicluster.1icwsn2.mongodb.net/?retryWrites=true&w=majority`)
+
 
 .then(()=>{
     console.log("Conectado ao banco com sucesso!")
