@@ -8,8 +8,8 @@ import Button from '../../components/Button'
 
 const formularioLogin = (
     <form className="form-login">
-        <Input label="E-mail" type="email"/>
-        <Input label="Senha" type="password"/>
+        <Input label="E-mail" type="email" required="required"/>
+        <Input label="Senha" type="password" required="required"/>
         <Button text="Entrar"/>
     </form>
 );
