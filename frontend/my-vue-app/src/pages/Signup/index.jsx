@@ -6,8 +6,8 @@ import Button from '../../components/Button'
 
  const formularioCadastro = (
     <form className="form-cadastro">
-        <Input label="Nome" type="text"/>
-        <Input label="Idade" type="number"/>
+        <Input label="Nome" type="text" required="required"/>
+        <Input label="Idade" type="number" required="required"/>
 
         <label htmlFor="Genero">Gênero</label>
         <select className="select" id="Genero" required>
