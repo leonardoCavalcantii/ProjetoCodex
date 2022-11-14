@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
     const  profile = {
         name,
         genre,
-        yearsOld:new Date(yearsOld),
+        yearsOld,
         email,
         password,
         approved

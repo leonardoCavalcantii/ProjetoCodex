@@ -16,18 +16,18 @@ export default function FormCadastro(props) {
             genre: genre, 
             yearsOld: yearsOld, 
             email: email, 
-            password: password,
+            password: password
         }
         
         console.log(data)
         
         const response = await api.post('/', data)
-    
+    /*
         if(response==201){
             window.location.href='/home'
         } else {
             alert("Algum erro ocorreu :T");
-        }
+        }*/
     }
 
     return (
