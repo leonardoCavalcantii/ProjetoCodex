@@ -1,0 +1,54 @@
+
+
+form {
+    width: 300px;
+    margin: 2em auto;
+}
+
+span {
+    display: block;
+    margin: 0 0 0 7px;
+    font-size: 1em;
+    font-weight: 550;
+}
+
+input {
+    display: block;
+    margin: auto;
+    height: 2em;
+    width: 280px;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 25px auto;
+    color: #006dff;
+    font-size: 1.3em;
+    background: white;
+    border: none;
+}
+
+button:hover {
+    color: darkblue;
+}
+
+.redirecionamento {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: block;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 550;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}

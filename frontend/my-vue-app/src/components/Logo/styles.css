@@ -1,10 +1,12 @@
-.logo, img {
+img {
     display: block;
-    width: 200px; 
-    margin: auto;
+    margin: 0 auto;
+    width: 100px;
 }
 
-.logo h1 {
-    text-align: center;
+h1 {
+    margin: 0;
     color: #006dff;
+    font-size: 2em;
+    text-align: center;
 }

@@ -1,8 +1,5 @@
 import './index.css'
-
-import Input from '../../components/Input'
-import Button from '../../components/Button'
-
+/*
 const user = {
     foto: 'https://cdn.discordapp.com/attachments/1035606895953727488/1037442017556451348/user.png',
     nome: "João Victor Cosme Melo",
@@ -38,4 +35,8 @@ const formEdicao = (
   
 export default function Profile() {
     return <div>{formEdicao}</div>
+}*/
+
+export default function Profile() {
+    return (Perfil)
 }
