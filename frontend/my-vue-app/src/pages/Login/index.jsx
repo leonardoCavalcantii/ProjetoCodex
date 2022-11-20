@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-
+/*
 import Logo from '../../components/Logo'
 import Input from '../../components/Input'
 import Button from '../../components/Button'
@@ -28,4 +28,8 @@ export default function Login() {
             {criarConta}
         </div>
     );
-};
+};*/
+
+export default function Login() {
+    return (Login)
+}
