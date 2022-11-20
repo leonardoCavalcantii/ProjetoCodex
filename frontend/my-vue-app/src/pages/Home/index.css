@@ -1,0 +1,84 @@
+#tarefaUI {
+    width: 800px;
+    margin: auto;
+    margin-top: 25px;
+}
+  
+#Submitar {
+    background-color: #F1F1F1;
+    color: #292929;
+    border-radius: 25px;
+    position: relative;
+    top: -65px;
+    left: 240px;
+    width: 200px;
+    height: 50px;
+  
+}
+  
+#Input_Tarefa {
+    border: none;
+    font-size: 25px;
+    height: 60px;
+    width: 500px;
+    position: relative;
+    top: 15px;
+    left: 15px
+  
+}
+  
+#lista {
+    list-style: none;
+}
+  
+#lixo {
+    width: 40px;
+    height: 35px;
+    position: relative;
+    top:-100px;
+    right: 360px;
+}
+  
+#checkbox {
+    position: relative;
+    top: -202px;
+    left: 120px;
+    width: 150px;
+    height: 50px;
+}
+  
+#concluir {
+    margin-top: 12px;
+}
+  
+#caixinha {
+    position: relative;
+    top: -40px;
+    right: 30px;
+}
+  
+  #aba-meio {
+    background-color: #f1f1f1;
+    height: 100px;
+    margin-bottom: 150px;
+  
+  }
+  
+  #editar {
+    width: 40px;
+    height: 35px;
+    position: relative;
+    top: -160px;
+    right: 300px;
+  
+  }
+  
+  #item-lista {
+    font-family: "Monteserrat";
+    font-size: 25px;
+  
+  }
+  
+  #editando {
+    border: 1px solid red;
+  }

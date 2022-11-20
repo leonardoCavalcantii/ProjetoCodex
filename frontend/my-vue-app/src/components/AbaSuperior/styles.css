@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+#aba-superior {
+    background: #292929;
+    height: 25vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+#lado-esquerdo {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#lado-esquerdo img {
+    display: block;
+    width: auto;
+    height: 10vw;
+    margin: 25px;
+}
+    
+#lado-esquerdo h1 {
+    display: block;
+    color: #F8F8F8;
+    font-family: "Open Sans Extra Bold";
+    font-size: 5vh;      
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+    
+#lado-esquerdo a {
+    display: inline;
+    text-decoration: none;
+    color: #BBBBBB;
+    font-size: 3vh;
+}
+
+#lado-esquerdo .saida img {
+    display: inline;
+    height: 3vh;
+    width: auto;
+}

@@ -20,24 +20,8 @@ export default function FormCadastro(props) {
         
         console.log(data)
         alert("Infelizmente não pudemos configurar as rotas para autenticar o login... :T Por favor, substitua '/' por '/home' na URL para prosseguir para a página principal")
-
-        /*
-        fetch('http://177.73.202.55:3000/', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({data})
-        }).then(res => {
-            return res.json()
-        }).then (res => {
-            console.log(res)
-            if(response==201){
-                window.location.href='/home'
-            }
-        })
-        .catch(error => alert(`Algo de ruim aconteceu :T Erro: ${error}`))
-        */
     }
-
+    
     return (
         <form>
             <label>
