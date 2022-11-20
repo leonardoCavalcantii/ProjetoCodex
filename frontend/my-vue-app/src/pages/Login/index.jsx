@@ -1,35 +1,13 @@
 import React from 'react'
 import './index.css'
-/*
 import Logo from '../../components/Logo'
-import Input from '../../components/Input'
-import Button from '../../components/Button'
-
-
-const formularioLogin = (
-    <form className="form-login">
-        <Input label="E-mail" type="email" required="required"/>
-        <Input label="Senha" type="password" required="required"/>
-        <Button text="Entrar"/>
-    </form>
-);
-
-const criarConta = (
-    <div className="naocadastrado">
-        <p>Não tem uma conta? <a href="/signup">Cadastre-se</a></p>
-    </div>
-);
+import FormLogin from '../../components/FormLogin'
 
 export default function Login() {
     return (
-        <div className="login">
+        <div>
             <Logo/>
-            {formularioLogin}
-            {criarConta}
+            <FormLogin/>
         </div>
-    );
-};*/
-
-export default function Login() {
-    return (Login)
+    )
 }
