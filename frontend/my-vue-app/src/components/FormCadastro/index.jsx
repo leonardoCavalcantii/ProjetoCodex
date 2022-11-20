@@ -1,33 +1,41 @@
 import "./styles.css"
 import {useState} from "react"
-import api from '../../services/api'
 
 export default function FormCadastro(props) {
-
     const [name, setName] = useState("");
     const [yearsOld, setYearsOld] = useState("");
     const [genre, setGenre] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-
+    
     async function handleSubmit() {
         const data = {
             name: name, 
             genre: genre, 
             yearsOld: yearsOld, 
             email: email, 
-            password: password
+            password: password,
+            approved: true
         }
         
         console.log(data)
-        
-        const response = await api.post('/', data)
-    /*
-        if(response==201){
-            window.location.href='/home'
-        } else {
-            alert("Algum erro ocorreu :T");
-        }*/
+        alert("Infelizmente não pudemos configurar as rotas para criar perfis... :T Por favor, substitua '/signup' por '/home' na URL para prosseguir para a página principal")
+    
+        /*
+        fetch('http://177.73.202.55:3000/', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({data})
+        }).then(res => {
+            return res.json()
+        }).then (res => {
+            console.log(res)
+            if(response==201){
+                window.location.href='/home'
+            }
+        })
+        .catch(error => alert(`Algo de ruim aconteceu :T Erro: ${error}`))
+        */
     }
 
     return (
@@ -68,7 +76,7 @@ export default function FormCadastro(props) {
             <label>
                 <span>E-mail: </span>
                 <input 
-                    type="email" 
+                    type="email"
                     name="email" 
                     id="email"
                     value={email}

@@ -5,7 +5,7 @@ const app = express()
 const mongoose = require('mongoose')
 require('dotenv').config()
 
-app.use(cors())
+app.use(cors({"access-control-allow-origin": "*"}))
 
 app.use(
     express.urlencoded({ 
@@ -21,12 +21,11 @@ const profileRoutes = require('./routes/profileRoutes')
 app.use('/profile', profileRoutes)
 
 
-/*
-const USER_BD = process.env.USER_BD
-const BD_PASSWORD = encodeURIComponent(process.env.BD_PASSWORD)
-*/
 
-mongoose.connect(`mongodb+srv://VictorCosme:1323qMDB@apicluster.1icwsn2.mongodb.net/?retryWrites=true&w=majority`)
+const USER_BD = 'VictorCosme'
+const BD_PASSWORD = '1323qMDB'
+
+mongoose.connect(`mongodb+srv://${USER_BD}:${BD_PASSWORD}@apicluster.1icwsn2.mongodb.net/?retryWrites=true&w=majority`)
 
 
 
